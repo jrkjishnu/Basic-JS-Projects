@@ -1,0 +1,74 @@
+.nav
+{
+    background-color: blue;
+    overflow: hidden;
+    margin: 0px;
+    
+}
+.nav li
+{
+    display: inline-block;
+}
+
+.container
+{
+    position: relative;
+    left: 600px;
+    width: 500px;
+    height: 200px;
+    background-color: brown;
+    text-align: center;
+    
+
+}
+#Add
+{
+    float: right;
+    size: 20px;
+}
+.popup
+{
+    border-radius: 2%;
+    margin-top: 1rem;
+    background-color: grey;
+    position: relative;
+    left: 600px;
+    width: 700px;
+    height: 300px;
+    background-color: rgb(117, 110, 110);
+    text-align: center;
+}
+.popup form
+{
+    float: left;
+    margin: 1rem;
+}
+.popup form input
+{
+    height: 1.5rem;
+    width: 580px;
+}
+.popup form label
+{
+    float: left;
+    font-size: 25px;
+}
+.buttons
+{
+    float: right;
+}
+
+.invisible
+{
+    display: none;
+}
+
+table
+{
+    width: 95%;
+}
+td
+{
+    font-size: 20px;
+    padding: 5px;
+}

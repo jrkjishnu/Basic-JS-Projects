@@ -1,0 +1,20 @@
+body
+{
+    display: flex;
+    align-items:center;
+    justify-content: center;
+    min-height: 100vh;
+}
+
+.container
+{
+    height: 500px;
+    width: 500px;
+    overflow: hidden;
+}
+img
+{
+    object-fit: cover;
+    height: 100%;
+    width: 100%;
+}

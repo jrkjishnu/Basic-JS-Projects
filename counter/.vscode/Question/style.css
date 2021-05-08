@@ -1,0 +1,32 @@
+body
+{
+    background-color: lightblue;
+}
+article
+{
+    background-color: white;
+    width: 800px;
+    height: 100px;
+
+}
+
+label
+{
+    font-size: 25px;
+    margin: 90px;
+}
+
+div
+{
+    display: none;
+}
+.visi
+{
+    display: block;
+}
+.visible
+{
+    background-color: white;
+    width: 800px;
+    height: 200px;
+}

@@ -1,0 +1,24 @@
+body
+{
+    background-color: blue;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    color: red;
+    min-height: 100vh;
+}
+.heart
+{
+   position: fixed;
+   top: -1vh;
+   transform: translateY(0);
+   animation: falls 3s linear;
+    
+}
+
+@keyframes falls{
+    to{
+        transform: translateY(105vh);
+    }
+}

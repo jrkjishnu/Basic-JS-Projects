@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h2>To Do List</h2>
+        <input id = "input" type="text" value="">
+        <button id = "addtodo">+</button>
+        <div id="todoContainer">
+
+        </div>
+    </div>
+    <script>
+        let userInput = document.querySelector('input');
+        const button = document.querySelector('button');
+        const todo = document.getElementById('todoContainer');
+        console.log(todo);
+        let val = document.getElementById('demo');
+        button.addEventListener('click',adding);
+        let pp = document.createElement('p');
+        function adding()
+        {
+            pp = document.createElement('p');
+            pp.innerHTML = userInput.value ; 
+            //document.getElementById('demo').textContent = userInput.value;
+            todo.appendChild(pp);
+            userInput.value = '';
+        }
+
+        pp.addEventListener('click',()=>
+        {
+            todo.removeChild(pp);
+        })
+
+        
+    </script>
+</body>
+</html>

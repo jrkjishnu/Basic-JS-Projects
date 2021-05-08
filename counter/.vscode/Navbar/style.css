@@ -1,0 +1,43 @@
+.navbar
+{
+    float: left;
+    overflow: hidden;
+    background-color: lightblue;
+    width: 100%;
+}
+h2{
+    float: left;
+}
+li
+{
+    float: left;
+    overflow: hidden;
+    font-size: 30px;
+    padding-left: 45px;
+}
+
+.invisible
+{
+    display: none;
+}
+.visible
+{
+    display: block;
+    overflow: hidden;
+    font-size: 30px;
+}
+button
+{
+    display: none;
+}
+@media screen and (max-width:700px)
+{
+    li
+    {
+        display: none;
+    }
+    button
+    {
+        display: block;
+    }
+}

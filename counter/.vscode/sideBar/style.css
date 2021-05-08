@@ -1,0 +1,51 @@
+*
+{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+}
+
+nav
+{
+    height: 100vh;
+    width: 350px;
+    background-color: #34495e;
+    transform: translate(0%);
+
+}
+
+label,logo{
+    font-size: 30px;
+    
+}
+button
+{
+    margin-left: 95px;
+    font-size: 25px;
+}
+
+ul
+{
+    margin-left: 20px;
+    margin-top: 20px;
+}
+li{
+    font-size: 25px;
+    font-family: 'Courier New', Courier, monospace;
+    color: white;
+    padding: 15px;
+}
+li a
+{
+    color: white;
+}
+
+.visible
+{
+        background: #2f3640;
+        transform: translate(-100%);
+        text-align: center;
+        transition: all 1.5s;
+}
+
